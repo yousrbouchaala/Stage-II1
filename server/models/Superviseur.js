@@ -1,6 +1,6 @@
 const mongoose = require('mongoose') 
-const Super = new mongoose.Schema({
-    nomEtud : {
+const Superviseur = new mongoose.Schema({
+    Email: {
     type: String,
     required: [true, "Please provide un etud"],
     unique: false , 
@@ -9,9 +9,13 @@ const Super = new mongoose.Schema({
     
     nomSup : {
     type: String,
-    required: [true, "Please provide a sup"],
+    
     unique: true ,
     },
+    password: { 
+        type: String, 
+        required : [true , "please provide password "]
+    }
    
 
 }); 
