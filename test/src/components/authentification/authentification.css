@@ -1,0 +1,91 @@
+h1 {
+    font-size: 28px;
+    color: #000;
+    font-weight: 100;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.auth3 {
+    font-size: 14px;
+    color: #8C8C8C;
+    font-weight: 100;
+    margin: 0;
+    margin-bottom: 7px;
+}
+
+.auth {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 48px;
+    padding-bottom: 85px;
+    max-width: 400px;
+    background: #fff;
+    box-sizing: border-box;
+    min-height: 436px;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+}
+
+
+
+.form-item {
+    margin: 13px 0;
+    position: relative;
+}
+
+
+
+
+.inputauth {
+    font-size: 16px;
+    height: 48px;;
+    width: 100%;
+    padding: 0 12px;
+    padding-top: 17px;
+    box-sizing: border-box;
+    border: 1px solid #CED4DA;
+    outline: none;
+    border-radius: 3px;
+    box-shadow: 0 0 0 0 rgba(#88B8FE, 0);
+    transition: box-shadow .3s; } 
+
+    input:focus {
+        border-color: #88B8FE;
+        box-shadow: 0 0 0 4px rgba(#88B8FE, 0.25);
+    }
+
+
+.label {
+    position: absolute;
+    pointer-events: none;
+    left: 12px;
+    top: 0;
+    line-height: 48px;
+    transition: .3s;
+    color: #6B757C; }
+
+    input:focus,
+    input:not(:focus) {
+        top: -10px;
+        font-size: 11px;
+    }
+
+
+.form-submit {
+    margin-top: 40px;
+}
+
+.button {
+    height: 50px;
+    width: 100%;
+    border-radius: 4px;
+    background: #428EFF;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    border: 0;
+}
